@@ -1,0 +1,44 @@
+//Variables
+
+$black: #000000;
+$white: #ffffff;
+$lightGrey: #e6e6e6;
+$darkGrey: #333333;
+$blueGreen: #0d98ba;
+$bordeaux: #ba2f0d;
+$mustard: #ba860d;
+
+//Mixins
+@mixin translateY($e) {
+  -webkit-transform: translateY($e);
+  -moz-transform: translateY($e);
+  transform: translateY($e);
+}
+
+@mixin transition($e) {
+  -webkit-transition: $e;
+  -moz-transition: $e;
+  transition: $e;
+}
+
+// Fonts
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: $black;
+}
+a {
+  text-decoration: none;
+  @include transition(.4s ease-in-out);
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: none;
+    color: $black;
+   @include transition(.4s ease-in-out);
+  }
+}
+.container-fluid {
+  line-height: 24px;
+}
+
