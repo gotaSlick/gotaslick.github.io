@@ -8,11 +8,11 @@ class NavBar extends Component {
             <Row>
             <Col s={12} m={12} l={12}>
             <nav>
-                <ul>
+                <React.Fragment>
                     <li><Link to="/contact">Contact</Link></li>                   
                     <li><Link to="/projects">Projects</Link></li>
                     <li><Link to="/">About Me</Link></li>                    
-                </ul>
+                </React.Fragment>
             </nav>
             </Col>
             </Row>

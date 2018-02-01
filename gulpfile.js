@@ -21,7 +21,6 @@ gulp.task('compile_scss', function() {
     .pipe(rename({ suffix: '.min' }))
     .pipe(changed(SCSS_DEST))
     .pipe(gulp.dest(SCSS_DEST));
-
 });
 
 //Detect changes in SCSS
