@@ -1,4 +1,4 @@
 #! /bin/bash
-mkdir "sourcecode"
+mkdir -p sourcecode
 mv ./* ./sourcecode 
 mv ./docs/* ./ 
