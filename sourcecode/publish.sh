@@ -8,4 +8,7 @@ cd sourcecode
 git add .
 git commit -m 'wip'
 git push origin master 
+# move all folders and files from build to top level
+# mv ./build/* ../
+
 
