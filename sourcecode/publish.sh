@@ -7,7 +7,7 @@
 
 # move all folders and files from build to top level
 cp -rf ./build/. ../
-cd ..
+cd ../
 # add commit recent changes
 git add .
 git commit -m 'wip'
