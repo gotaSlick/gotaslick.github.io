@@ -31,11 +31,11 @@ class Projects extends Component {
                 <Row className="cardsSection">
                     <Col s={12} m={6} l={4}>
                         <Card className="smallCard" 
-                              header={<a href="https://gotaslick.github.io/todoList/" target="_blank" rel="noopener noreferrer"><CardTitle image={todolistCard}></CardTitle></a>} 
-                              actions={[<a href='https://gotaslick.github.io/todoList/' target="_blank" rel="noopener noreferrer">Demo</a>]}>
+                              header={<a href="https://gotaslick.github.io/Todo-List/" target="_blank" rel="noopener noreferrer"><CardTitle image={todolistCard}></CardTitle></a>} 
+                              actions={[<a href='https://gotaslick.github.io/Todo-List/' target="_blank" rel="noopener noreferrer">Demo</a>]}>
                             <div className="cardText">
-                            A simple <a href="https://gotaslick.github.io/todoList/" target="_blank" rel="noopener noreferrer">Todo List</a> App<br/>
-                            <a href="https://github.com/gotaSlick/todoList" target="_blank" rel="noopener noreferrer">Link to the code</a>
+                            A simple <a href="https://gotaslick.github.io/Todo-List/" target="_blank" rel="noopener noreferrer">Todo List</a> App<br/>
+                            <a href="https://github.com/gotaSlick/Todo-List" target="_blank" rel="noopener noreferrer">Link to the code</a>
                             </div>
                         </Card>
                      </Col>
