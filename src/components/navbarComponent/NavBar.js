@@ -9,15 +9,9 @@ class NavBar extends Component {
                 <Col s={12} m={12} l={12}>
                     <nav>
                         <React.Fragment>
-                            <li>
-                                <Link to="/contact">Contact</Link>
-                            </li>
-                            <li>
-                                <Link to="/projects">Projects</Link>
-                            </li>
-                            <li>
-                                <Link to="/">About Me</Link>
-                            </li>
+                            <li><Link to="/contact">Contact</Link></li>
+                            <li><Link to="/projects">Projects</Link></li>
+                            <li><Link to="/">About Me</Link></li>
                         </React.Fragment>
                     </nav>
                 </Col>
