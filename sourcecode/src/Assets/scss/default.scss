@@ -56,28 +56,19 @@ nav li a {
     text-align: justify;
 }
 
-.aboutMe h1 {
-    text-align: center;
-}
-
-.projects {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-}
-
-.projects h1 {
-    text-align: center;
-}
-
+.projects,
 .contact {
     width: 80%;
     margin: auto;
     text-align: center;
 }
 
+.aboutMe h1,
+.projects h1,
 .contact h1 {
     text-align: center;
+    color: $mustard;
+    text-transform: uppercase;
 }
 
 .cardsSection {
@@ -121,13 +112,9 @@ a {
     color: $blueGreen;
     font-size: 1.5em;
 }
+
 .link {
     text-decoration: underline;
-}
-
-.aboutMe h1 {
-    color: $mustard;
-    text-transform: uppercase;
 }
 
 // .projectsIntro {
