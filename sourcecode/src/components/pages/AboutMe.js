@@ -19,7 +19,7 @@ class AboutMe extends Component {
                     </Col>
                     <Col s={12} m={6} l={6}> 
                         <p>other things that came out on top of the others were: never stop learning and place for creativity. It came out very true! I love spending countless hours educating myself outside the realm of academia, I love the challenge of being obliged to change my methods of work as technology evolves. I do not mind not being in a comfort zone and most of all I take all the opportunities to learn new things or at least read about them.</p>
-                        <p>P.S. I continue being a music producer in my spare time. You can check my work by clicking the ‘music’ link.</p>
+                        <p>P.S. I continue being a music producer in my spare time. You can check my work by clicking this <a href="https://soundcloud.com/brain-rain" target="_blank" rel="noopener noreferrer"><i className="fa fa-music"></i> music link <i className="fa fa-music"></i></a> and if you prefer music with visuals, <a href="https://www.youtube.com/watch?v=r91iadDGhpg" target="_blank" rel="noopener noreferrer"><i class="fa fa-youtube"></i> here you go <i class="fa fa-youtube"></i></a> as well :-)</p>
                     </Col>
                 </Row>
 

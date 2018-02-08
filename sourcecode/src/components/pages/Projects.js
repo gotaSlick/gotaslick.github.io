@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import {Row, Col, Card, CardTitle} from 'react-materialize';
+import ReactTooltip from 'react-tooltip';
+
 
 let todolistCard = "./img/projects/todolist.png"
 let calcCard = "./img/projects/calc.png"
@@ -22,9 +24,14 @@ class Projects extends Component {
                 <Row>
                     <Col s={12} m={12} l={12}>
                     <div className="projectsIntro">
-                        <p>Here you can see some of my web projects.</p>
+                        <p>Here you can see some of my web projects.</p> <a className="importantNote" data-tip data-for="global"><i class="fa fa-exclamation-circle"></i> Important note </a> <ReactTooltip id='global' aria-haspopup='true' role='example'>
+                        <p>For some visitors the first two Demo links (Todo List and Calculator) won't open on Chrome and Firefox</p>
+                        <p>There is a strange bug with React and GitHub Pages</p>
+                        <p>I am sorting it out</p>
+                        <p>If you don't mind using Safari or just checking the link to the code on GitHub</p>
+                        </ReactTooltip>
                         <p>Click on Demo to see the live demo of the application.</p>
-                        <p>Link to the code links to the project's code on my Github account.</p>
+                        <p>Link to the code links to the project's code on my <a href="https://github.com/gotaSlick" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i> Github account <i class="fa fa-github"></i></a></p>
                     </div>
                     </Col>
                 </Row>
