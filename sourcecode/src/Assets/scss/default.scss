@@ -117,10 +117,10 @@ a {
 
 .fa-envelope,
 .fa-phone {
+    display: inline;
     color: $blueGreen;
     font-size: 1.5em;
 }
-
 .link {
     text-decoration: underline;
 }

@@ -20,7 +20,7 @@ class Contact extends Component {
 
                  <Row>
                     <Col s={1} m={12} l={12}>
-                      <i className="fa fa-phone" aria-hidden="true"></i> +32 495 77 18 27
+                      <p className="flow-text"><i className="fa fa-phone"></i> +32495771827</p>
                     </Col>
                 </Row>
             </div>

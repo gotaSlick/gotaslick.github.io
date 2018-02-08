@@ -6,7 +6,7 @@ import NavBar from './components/navbarComponent/NavBar';
 import AboutMe from './components/pages/AboutMe';
 import Projects from './components/pages/Projects';
 import Footer from './components/footerComponent/Footer';
-import Contact from './components/Contact';
+import Contact from './components/pages/Contact';
 
 //includes
 import './Assets/css/default.min.css';
