@@ -23,7 +23,7 @@ class Projects extends Component {
 
                 <Row>
                     <Col s={12} m={12} l={12}>
-                    <div className="projectsIntro">
+                    <div className="flow-text">
                         <p>Here you can see some of my web projects.</p> <a className="importantNote" data-tip data-for="global"><i class="fa fa-exclamation-circle"></i> Important note </a> <ReactTooltip id='global' aria-haspopup='true' role='example'>
                         <p>For some visitors the first two Demo links (Todo List and Calculator) won't open on Chrome and Firefox</p>
                         <p>There is a strange bug with React and GitHub Pages</p>

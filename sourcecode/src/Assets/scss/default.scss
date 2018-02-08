@@ -1,5 +1,4 @@
 @import "_config.scss";
-
 html,
 body {
     margin: 0;
@@ -24,16 +23,17 @@ header {
     width: 50px;
     height: 50px;
     margin-left: 65px;
-    margin-top: 45px;
-    // padding-top: 70px;
+    margin-top: 45px; // padding-top: 70px;
     // padding-left: 40px;
     width: 100px;
     height: 100px;
 }
+
 .titles {
     text-align: center;
     margin-top: 100px;
 }
+
 nav {
     background-color: $blueGreen;
     margin-top: -21px;
@@ -43,27 +43,33 @@ nav li {
     float: right;
     list-style-type: none;
 }
+
 nav li a {
     font-size: 1.7em;
     text-transform: uppercase;
     padding-right: 20px;
 }
+
 .aboutMe {
     width: 80%;
     margin: auto;
     text-align: justify;
 }
+
 .aboutMe h1 {
     text-align: center;
 }
+
 .projects {
     width: 80%;
     margin: auto;
     text-align: center;
 }
+
 .projects h1 {
     text-align: center;
 }
+
 .contact {
     width: 80%;
     margin: auto;
@@ -73,23 +79,29 @@ nav li a {
 .contact h1 {
     text-align: center;
 }
+
 .cardsSection {
     margin-top: 50px;
 }
+
 .cardText {
     text-align: center;
     font-size: 0.8em;
 }
+
 .smallCard {
     color: $blueGreen
 }
+
 a {
     color: $mustard;
 }
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating){
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
     color: $mustard;
     font-size: 1.2em;
 }
+
 .card .card-image {
     box-sizing: border-box;
     width: 230px;
@@ -98,26 +110,33 @@ a {
     margin-left: 40px;
     margin-bottom: 80px;
 }
+
 .card .card-image:hover {
     cursor: pointer;
 }
-.fa-envelope, .fa-phone {
+
+.fa-envelope,
+.fa-phone {
     color: $blueGreen;
     font-size: 1.5em;
 }
+
 .link {
     text-decoration: underline;
 }
-h1 {
+
+.aboutMe h1 {
     color: $mustard;
     text-transform: uppercase;
 }
-.projectsIntro {
-    line-height: 10px;
-}
+
+// .projectsIntro {
+//     line-height: 15px;
+// }
 .importantNote {
     color: $bordeaux;
 }
+
 // header {
 //     // background-clip: content-box;
 //     // background-size: cover;
@@ -131,12 +150,10 @@ h1 {
 //     background-image: url("../../img/white.jpg");
 //     // color: $white;
 //     // height: 500px;
-    
 //     // .logo {
 //     //     position: absolute;
 //     //     top: 20%; left: 45px;
 //     //     @include translateY(-50%);
-        
 //     // }
 //     h1, h2, h3 {
 //        text-align: center;
@@ -150,24 +167,20 @@ h1 {
 //         padding-top: 220px;
 //         margin-top: 0px;
 //     }
-
 //     nav,
 //     nav ul,
 //     nav ul li {
 //         margin: 0;
 //         padding: 0;
 //     }
-
 //     nav {
 //         position: absolute;
 //         bottom: 0%; right: 15px;
 //        // @include translateY(-50%);
-
 //         ul li {
 //             list-style-type: none;
 //             display: inline-block;
 //             margin-right: 25px;
-
 //             &.last {
 //                 margin: 0;
 //             }
@@ -179,10 +192,6 @@ h1 {
 //         }
 //     }
 // }
-
-
-
-
 // Footer {
 //     position: relative;
 //     display: block;
